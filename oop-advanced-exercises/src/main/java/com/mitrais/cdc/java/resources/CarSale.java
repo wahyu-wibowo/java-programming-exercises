@@ -1,7 +1,9 @@
 package com.mitrais.cdc.java.resources;
 
 public class CarSale implements Sellable {
-  //TODO: define attributes/properties based on question
+  private String carName;
+  private double listPrice;
+  private double discount;
 
   public CarSale(String carName, double listPrice, double discount) {
 	//TODO: complete this so it will set the properties when called 
